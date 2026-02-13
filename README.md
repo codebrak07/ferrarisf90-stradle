@@ -1,48 +1,110 @@
-🏎️ Ferrari SF90 Stradale Showcase
-A high-performance, interactive web experience showcasing the Ferrari SF90 Stradale. This project uses modern web technologies to deliver a smooth, immersive "hypercar" feel through scroll-based animations and high-quality visuals.
+🏎️ Ferrari SF90 Stradale – Immersive Scroll Showcase
 
-🌐 Live Demo: https://ferrarisf90-stradle.netlify.app/
+A high-performance, cinematic, scroll-driven web experience inspired by the engineering precision of the Ferrari SF90 Stradale.
 
-🚀 Features
-Interactive Scroll Experience: Uses framer-motion for smooth, high-end transitions and phase-based animations (Hero, Design, and Engine sections).
+🔗 Live Demo: https://ferrarisf90-stradle.netlify.app/
 
-Dynamic Data Rendering: Centralized data management using a carData module to power technical specifications.
+✨ Overview
 
-Fully Responsive: Optimized for all screen sizes, ensuring the SF90's design looks great on mobile and desktop.
+This project is a luxury automotive showcase built with modern frontend technologies to deliver a hypercar-level digital experience.
 
-Performance Focused: Built on Next.js for fast loading and optimized asset delivery.
+The core mechanic is a scroll-controlled animation system that synchronizes content transitions, motion effects, and UI overlays to create a seamless storytelling flow.
+
+Designed with performance, scalability, and premium aesthetics in mind.
+
+🎬 Key Features
+🌀 Scroll-Based Cinematic Experience
+
+Phase-based scroll transitions
+
+Smooth motion using Framer Motion
+
+Section-aware animation orchestration
+
+⚡ Performance Optimized
+
+Built with Next.js App Router
+
+Optimized asset loading
+
+Minimal re-renders
+
+Smooth 60fps animation focus
+
+📱 Fully Responsive
+
+Adaptive layout for mobile & desktop
+
+Optimized typography scaling
+
+Fluid spacing system using Tailwind
+
+🧠 Centralized Data Architecture
+
+Modular car data configuration
+
+Dynamic spec rendering
+
+Clean separation of content & presentation
 
 🛠️ Tech Stack
-Framework: Next.js (React)
+Technology	Purpose
+Next.js (React)	Framework & Routing
+Tailwind CSS	Styling & Layout
+Framer Motion	Animation Engine
+Netlify	Deployment
+📁 Project Architecture
+/app
+  ├── layout.tsx
+  ├── page.tsx
 
-Styling: Tailwind CSS
+/components
+  ├── Navbar.tsx
+  ├── SF90Experience.tsx
+  ├── SectionBlocks
 
-Animations: Framer Motion
+/data
+  ├── carData.ts
 
-Deployment: Netlify
+/public
+  ├── images
+  ├── icons
 
-📂 Project Structure
-/app: Main page routing and layout.
 
-/components: Reusable UI elements like the SF90Experience and Navbar.
+Architecture principles:
 
-/data: Centralized configuration for car specs and content.
+Component-driven structure
 
-/public: High-quality assets and icons.
+Data abstraction
 
-⚙️ Local Development
-Clone the repository:
+Animation isolation
 
-Bash
+Scalable folder organization
+
+🚀 Local Development
 git clone https://github.com/codebrak07/ferrarisf90-stradle.git
-Install dependencies:
-
-Bash
+cd ferrarisf90-stradle
 npm install
-Run the development server:
-
-Bash
 npm run dev
-Open http://localhost:3000 in your browser.
 
-Created by codebrak07 - 2026
+
+Open:
+
+http://localhost:3000
+
+📈 Future Improvements
+
+Scroll-driven image sequence rendering (video-like background)
+
+WebGL integration for 3D depth
+
+Advanced motion physics
+
+HUD-style animated overlays
+
+Performance analytics integration
+
+👨‍💻 Author
+
+Aalekh Maheshwari
+Frontend Developer focused on immersive web experiences.
